@@ -5,6 +5,9 @@ imported when doing ``import xarray_einstats``.
 To use it you need to have installed einops manually or alternatively
 install this library as ``xarray-einstats[einops]`` or ``xarray-einstats[all]``.
 Details about the exact command are available at :ref:`installation`
+
+TODO: Think about the uses and need for a repeat wrapper. A significant
+part of the features are covered by `expand_dims`.
 """
 import einops
 import xarray as xr
